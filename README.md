@@ -1,9 +1,9 @@
 # simple-deploy-tool
 
 Script works with tree folders:
-1. Source folder containing deployable file tree.
-2. Application folder with your project files.
-3. Backup folder.
+- Source folder containing deployable file tree.
+- Application folder with your project files.
+- Backup folder.
 
 Firstly script reads file tree from source folder, searches for analog files in application folder and tries to do a backup. 
 A new backup folder is created for every deployment. 
